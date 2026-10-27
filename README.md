@@ -31,7 +31,7 @@ ISO 20022 is the messaging standard behind SEPA, Swift cross-border payments (CB
 
 ## Deadlines
 
-Structured postal address dates as published by each body. Last checked: 26 October 2026. Each row links to its primary source.
+Structured postal address dates as published by each body. Last checked: 27 October 2026. Each row links to its primary source.
 
 | Scheme | Status | Source |
 |---|---|---|
@@ -72,7 +72,7 @@ Structured postal address dates as published by each body. Last checked: 26 Octo
 
 ### United Kingdom (CHAPS)
 
-- [ISO 20022 handbook](https://www.bankofengland.co.uk/payment-and-settlement/rtgs-renewal-programme/iso-20022-handbook) - Bank of England guidance for CHAPS messages.
+- [ISO 20022 handbook (older timeline)](https://www.bankofengland.co.uk/payment-and-settlement/rtgs-renewal-programme/iso-20022-handbook) - Background guidance for CHAPS messages; last updated 24 October 2024, so use the delay notice below for the current November 2026 release status.
 - [Delay to the November 2026 RTGS standards release](https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release) - The August 2026 deferral.
 
 ### Germany (EBICS)
@@ -89,8 +89,8 @@ Banks set their own dates and tolerances within each scheme. Check your own bank
 - [PostFinance](https://www.postfinance.ch/en/business/kampagnen/iso-updates.html) - Switzerland. Unstructured pain.001 not rejected outright for now, but processing to the payee isn't guaranteed.
 - [ZKB](https://www.zkb.ch/de/lps/unternehmen/zahlen/neuer-zahlungsverkehr.html) - Switzerland. Provisional extension for unstructured addresses in certain cases (in German).
 - [PKO Bank Polski](https://www.pkobp.pl/aktualnosci/bankowosc-elektroniczna/we-are-changing-the-deadline-for-the-removal-of-certain-file-formats-in-ipko-biznes-and-ipko-biznes-integra) - Poland. Postponed the removal of older file formats.
-- [UniCredit (HypoVereinsbank)](https://www.hypovereinsbank.de/content/dam/hypovereinsbank/unternehmen/pdf/Downloadcenter/Overview_Format_Changes_in_November_2026_EN.pdf) - Germany. Overview of format changes (PDF).
-- [Volksbank Stuttgart](https://www.volksbank-stuttgart.de/firmenkunden/zahlungsverkehr/ratgeber/aenderungen-pain-formate.html) - Germany. Changes to pain formats (in German).
+- [UniCredit (HypoVereinsbank)](https://www.hypovereinsbank.de/content/dam/hypovereinsbank/unternehmen/pdf/Downloadcenter/Overview_Format_Changes_in_November_2026_EN.pdf) - Germany. May 2026 overview of format changes (PDF); confirm November dates against current bank guidance after later Swift and EPC deferrals.
+- [Volksbank Stuttgart](https://www.volksbank-stuttgart.de/firmenkunden/zahlungsverkehr/ratgeber/aenderungen-pain-formate.html) - Germany. Its page still lists 15 November 2026 for retiring older pain formats; confirm with the bank because the EBICS notice above reports the industry's November retirement suspension (in German).
 
 ## Libraries
 
@@ -115,7 +115,7 @@ Banks set their own dates and tolerances within each scheme. Check your own bank
 
 ### Go
 
-- [moov-io/iso20022](https://github.com/moov-io/iso20022) - ISO 20022 message implementations in Go.
+- [moov-io/iso20022](https://github.com/moov-io/iso20022) - Archived and deprecated; Moov recommends targeted repositories such as [rtp20022](https://github.com/moov-io/rtp20022).
 - [moov-io/fedwire20022](https://github.com/moov-io/fedwire20022) - ISO 20022 messages for Fedwire.
 
 ### .NET
